@@ -1,0 +1,31 @@
+{
+  "name": "weight-in",
+  "version": "1.0.0",
+  "description": "Module for pass kilograms to pounds and viceverse",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/weightIn.js -d dist",
+    "test": "mocha -R min"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamo93/weight-in.git"
+  },
+  "keywords": [
+    "Pounds",
+    "Kilograms",
+    "JS"
+  ],
+  "author": "Kevin Mancera <kevin_andres_@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kamo93/weight-in/issues"
+  },
+  "homepage": "https://github.com/kamo93/weight-in#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
